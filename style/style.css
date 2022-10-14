@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 24px 130px 28px 130px ;
+    width: 750px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    right: 90px;
+    top: 56px;
+    border-radius: 20px;
+}
+.reg{
+    width: 750px;
+    height: 702px;
+    position: absolute;
+    right: 90px;
+    top: 220px;
+    bottom: 102px;
+}
+.reg input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.reg input::placeholder{
+    color: black;
+    font-size: 18px;
+}
+.reg input[type="radio"]{
+    width: 5%;
+    margin-left: 50px;
+}
+.reg label{
+    font-weight: bolder;
+    margin-right: 100px;
+}
+.pay{
+    font-weight: bolder;
+    padding: 15px 0px;
+}
+.reg textarea{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.reg input[type="submit"]{
+    background-color: rgb(1, 175, 140);
+    font-size: 18px;
+}
+.reg input[type="submit"]:hover{
+    background-color: rgb(2, 223, 178);
+    cursor: pointer;
+}
+input[type=radio] {
+    appearance: none;
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    display: inline-grid;
+    place-content: center; 
+  }
+
+input[type=radio]::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    transform-origin: bottom left;
+    background-color: #fff;
+    clip-path: polygon(13% 50%, 34% 66%, 81% 2%, 100% 18%, 39% 100%, 0 71%);
+}
+
+input[type=radio]:checked::before {
+    transform: scale(1);
+}
+input[type=radio]:checked{
+    background-color:   #0075FF;
+    border: 2px solid #0075FF;
+}
+.cont{
+    background-color: rgb(0, 0, 0);
+    width: 750px;
+    height: 394px;
+    border-radius: 10px;
+    padding: 70px 50px;
+    position: absolute;
+    right: 90px;
+    top: 56px;
+}
+.cont p{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cont .text{
+    font-size: 18px;
+}
+.last{
+    width: 750px;
+    height: 70px;
+    background-color: rgb(245, 186, 34);
+    border-radius: 10px;
+    margin-top: 850px;
+    margin-bottom: 102px;
+    margin-left: 510px;
+}
+.sale{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 22px 162px;
+    display: block;
+    margin: 0 auto;
+}
+.last:hover{
+    background-color:  rgb(236, 189, 69);
+    cursor: pointer;
+}
